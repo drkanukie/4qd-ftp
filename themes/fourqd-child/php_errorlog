@@ -1,0 +1,7 @@
+[05-Aug-2016 19:05:31 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/c4qd2148/public_html/wp-content/themes/fourqd-child/functions.php on line 13
+[05-Aug-2016 19:42:38 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/c4qd2148/public_html/wp-content/themes/fourqd-child/functions.php on line 13
+[06-Aug-2016 01:51:16 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/c4qd2148/public_html/wp-content/themes/fourqd-child/functions.php on line 13
+[07-Aug-2016 10:02:06 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/c4qd2148/public_html/wp-content/themes/fourqd-child/404.php on line 11
+[07-Aug-2016 12:34:29 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/c4qd2148/public_html/wp-content/themes/fourqd-child/404.php on line 11
+[10-Aug-2016 10:35:36 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/c4qd2148/public_html/wp-content/themes/fourqd-child/functions.php on line 13
+[10-Aug-2016 18:15:30 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/c4qd2148/public_html/wp-content/themes/fourqd-child/functions.php on line 13

@@ -1,0 +1,66 @@
+/*
+ Theme Name:     Fourqd Child Theme
+ Theme URI:      
+ Description:    Fourqd Child Theme
+ Author:         Erica Richardson
+ Author URI:     
+ Template:       fourqd
+ Version:        1.0.0
+*/
+ 
+@import url("../fourqd/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+/* Do not display tags e.g. golf cart on the product page */
+.tagged_as {
+	display:none;
+}
+/* Do not display category e.g. controller on the product page */
+.posted_in {
+	display:none;
+}
+/* Setting standard height for product display area on product category page, so that products
+line up better */
+
+.woocommerce ul.products li.product h3 {
+margin: 0;
+text-align: center;
+min-height: 40px;
+}
+
+.quicklink2,
+.quicklink3,
+.quicklink4 {
+  background: #324C4A; 
+  color: #fff;
+}
+
+#footercontact a {
+  color: rgb(0,180,167);
+}
+
+#footercontact .greytext {
+  color: rgba(255,255,255,.6);
+}
+
+/* 
+.logo { 
+  height: 80px;
+  width: 125px; 
+  margin-top: 16px;
+  float: left; 
+}
+*/
+
+#footerform button, 
+#footerform input[type="button"], 
+#footerform input[type="reset"], 
+#footerform input[type="submit"] {
+  font-size: 14px;
+  background: #F47320;
+  box-shadow: none;
+  border: none;
+  text-transform: uppercase;
+}
+
