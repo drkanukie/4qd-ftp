@@ -17,6 +17,17 @@
   overflow: auto;
 }
 
+ul,
+ol {
+  margin: 0 0 16px 16px;
+  padding-left: 16px;
+}
+
+ul li,
+ol li {
+  margin-bottom: 16px;
+}
+
 
 /* header */
 
@@ -61,11 +72,17 @@ line up better */
   min-height: 40px;
 }
 
+h2.quicklink1,
 .quicklink2,
 .quicklink3,
 .quicklink4 {
-  background: #324C4A;
+  background: #018C7F;
   color: #fff;
+}
+
+.hrgreen {
+  background: #F47320;
+  height: 1px;
 }
 
 #footercontact a {
@@ -192,5 +209,17 @@ line up better */
     margin: 1%;
     float: left;
     min-height: 200px;
+  }
+  .summary {
+    width: 100%!important;
+  }
+  h1 {
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 1.2;
+  }
+  ul,
+  ol {
+    margin-left: 0;
   }
 }
