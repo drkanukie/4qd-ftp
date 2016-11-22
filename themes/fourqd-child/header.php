@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package fourqd
+ * @package fourqd-child
  * Modified 4/5/16 EJR Linked log to home url;Linked facebook and google+ icons
  */
 
@@ -46,13 +46,16 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'fourqd' ); ?></a>
 <header id="masthead" class="site-header" role="banner">
   <div class="wrapper">
-    <a href="http://www.4qd.co.uk"> <img class="logo" src="<?php bloginfo('template_url');?>-child/img/logo.svg"  alt="4QD - Electronic speed controllers for DC battery powered electric motors" > </a>
 
+  <!-- SVG logo -->
+    <a href="http://www.4qd.co.uk"> <img class="logo" src="<?php bloginfo('template_url');?>-child/img/logo.svg"  alt="4QD - Electronic speed controllers for DC battery powered electric motors" > </a>
+  
+  <!-- contact details -->
     <div id="contactdetails">
       <p><a href="tel:+441487450520">+44 (0) 1487 450520</a><br>
       <a href="mailto:<?php echo antispambot( 'esales@4qd.co.uk' );?>" />
-      <?php echo antispambot( 'esales@4qd.co.uk' );?></a><br>
-      <a class="basket" href="http://www.4qd.co.uk/cart/">Shopping Basket</a></p>
+      <?php echo antispambot( 'esales@4qd.co.uk' );?></a></p>
+      <p><a class="basket" href="http://www.4qd.co.uk/cart/">Shopping Basket</a></p>
 
 
 <!-- p><a href="http://www.4qd.co.uk/my-account/">My Account</a> | </p -->
