@@ -52,8 +52,8 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
   
   <!-- contact details -->
     <div id="contactdetails">
-      <p><a href="tel:+441487450520">+44 (0) 1487 450520</a><br>
-      <a href="mailto:<?php echo antispambot( 'esales@4qd.co.uk' );?>" />
+      <p><a href="tel:+441487450520">+44 (0) 1487 450520</a></p>
+      <p><a href="mailto:<?php echo antispambot( 'esales@4qd.co.uk' );?>" />
       <?php echo antispambot( 'esales@4qd.co.uk' );?></a></p>
       <p><a class="basket" href="http://www.4qd.co.uk/cart/">Shopping Basket</a></p>
 
@@ -62,6 +62,8 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
     </div>
   </div>
 
+  <!-- navigation bar -->
+  <div class="logobar clearfix"></div>
   <nav id="site-navigation" class="main-navigation" role="navigation">
     <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
     <?php get_search_form() ?>
