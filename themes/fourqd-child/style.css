@@ -7,55 +7,66 @@
  Template:       fourqd
  Version:        1.0.0
 */
- 
+
 @import url("../fourqd/style.css");
- 
+
 /* =Theme customization starts here
 ------------------------------------------------------- */
+
+
+/* header */
+
+#masthead {
+  padding-top: 8px;
+}
+
+
 /* Do not display tags e.g. golf cart on the product page */
+
 .tagged_as {
-	display:none;
+  display: none;
 }
+
+
 /* Do not display category e.g. controller on the product page */
+
 .posted_in {
-	display:none;
+  display: none;
 }
+
+
 /* Setting standard height for product display area on product category page, so that products
 line up better */
 
 .woocommerce ul.products li.product h3 {
-margin: 0;
-text-align: center;
-min-height: 40px;
+  margin: 0;
+  text-align: center;
+  min-height: 40px;
 }
 
 .quicklink2,
 .quicklink3,
 .quicklink4 {
-  background: #324C4A; 
+  background: #324C4A;
   color: #fff;
 }
 
 #footercontact a {
-  color: rgb(0,180,167);
+  color: rgb(0, 180, 167);
 }
 
 #footercontact .greytext {
-  color: rgba(255,255,255,.6);
+  color: rgba(255, 255, 255, .6);
 }
 
-/* 
-.logo { 
-  height: 80px;
-  width: 125px; 
+.logo {
+  width: 200px;
   margin-top: 16px;
-  float: left; 
 }
-*/
 
-#footerform button, 
-#footerform input[type="button"], 
-#footerform input[type="reset"], 
+#footerform button,
+#footerform input[type="button"],
+#footerform input[type="reset"],
 #footerform input[type="submit"] {
   font-size: 14px;
   background: #F47320;
@@ -64,3 +75,87 @@ min-height: 40px;
   text-transform: uppercase;
 }
 
+
+/* media queries */
+
+
+/* desktop */
+
+@media screen and (max-width: 1050px) {
+  .logo {
+    width: 200px;
+    /* float: left; */
+  }
+  #socialicons {
+    float: right;
+    margin: 20px 0 0 0;
+    width: 40%;
+  }
+  #contactdetails {
+    float: right;
+    text-align: right;
+    margin: 0 0 20px 0;
+    width: 40%;
+  }
+  .quicklink {
+    width: 48%;
+    margin: 20px 1%;
+    float: left;
+  }
+  .quicklink img {
+    width: 100%;
+  }
+}
+
+
+/* mobile */
+
+@media screen and (max-width: 640px) {
+  .logo {
+    width: 125px;
+    /* float: left; */
+  }
+  .quicklink {
+    width: 98%;
+    margin: 20px 1%;
+    float: left;
+  }
+  #footercontact {
+    float: left;
+    width: 98%;
+    margin: 20px 1%;
+    float: left;
+  }
+  #footerform {
+    float: left;
+    width: 98%;
+    margin: 20px 1%;
+    float: left;
+  }
+  ul.products li.product {
+    width: 98%!important;
+    border-bottom: 1px solid #ccc;
+    overflow: auto;
+    min-height: 650px;
+  }
+  li.knowledge-category,
+  li.cat-item {
+    width: 98%;
+    margin: 1% 1% 1% 1%;
+    float: left;
+    min-height: 125px;
+    list-style-type: none;
+  }
+  li.knowledge-category a,
+  li.cat-item a {
+    color: #008c7f;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .knowledgecat {
+    width: 98%;
+    margin: 1%;
+    float: left;
+    min-height: 200px;
+  }
+}
