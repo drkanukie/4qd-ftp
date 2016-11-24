@@ -38,14 +38,20 @@ ol li {
 .main-navigation {
   height: 46px;
   padding-top: 8px;
-  -webkit-box-shadow: inset 0px 5px 23px -8px rgba(0, 0, 0, 1);
-  -moz-box-shadow: inset 0px 5px 23px -8px rgba(0, 0, 0, 1);
-  box-shadow: inset 0px 5px 23px -8px rgba(0, 0, 0, 1);
 }
 
 #contactdetails {
-  min-width: 50%;
+  /* min-width: 50%; */
+  text-align: left;
+  width: auto;
   margin: 0;
+}
+
+#contactdetails img {
+  position: relative;
+  top: 5px;
+  margin-right: 16px;
+  display: inline;
 }
 
 
@@ -132,8 +138,7 @@ h2.quicklink1,
   }
   #contactdetails {
     float: right;
-    text-align: right;
-    min-width: 50%;
+    text-align: left;
     margin: 0;
   }
   .quicklink {
@@ -152,10 +157,10 @@ h2.quicklink1,
     width: 100%;
     height: 23px;
     background: #018C7F;
+    margin-bottom: 16px;
     -webkit-box-shadow: inset 0px 5px 23px -8px rgba(0, 0, 0, 1);
     -moz-box-shadow: inset 0px 5px 23px -8px rgba(0, 0, 0, 1);
     box-shadow: inset 0px 5px 23px -8px rgba(0, 0, 0, 1);
-    margin-bottom: 16px;
   }
 }
 

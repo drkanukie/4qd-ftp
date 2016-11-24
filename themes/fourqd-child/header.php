@@ -52,10 +52,13 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
   
   <!-- contact details -->
     <div id="contactdetails">
-      <p><a href="tel:+441487450520">+44 (0) 1487 450520</a></p>
-      <p><a href="mailto:<?php echo antispambot( 'esales@4qd.co.uk' );?>" />
+      <p><img src="<?php bloginfo('template_url');?>-child/img/ic_phone_black_24px.svg" alt="phone">
+      <a href="tel:+441487450520">+44 (0) 1487 450520</a></p>
+      <p><img src="<?php bloginfo('template_url');?>-child/img/ic_mail_outline_black_24px.svg" alt="email">
+      <a href="mailto:<?php echo antispambot( 'esales@4qd.co.uk' );?>" />
       <?php echo antispambot( 'esales@4qd.co.uk' );?></a></p>
-      <p><a class="basket" href="http://www.4qd.co.uk/cart/">Shopping Basket</a></p>
+      <p><img src="<?php bloginfo('template_url');?>-child/img/ic_shopping_cart_black_24px.svg" alt="cart">
+      <a class="basket" href="http://www.4qd.co.uk/cart/">Shopping Basket</a></p>
 
 
 <!-- p><a href="http://www.4qd.co.uk/my-account/">My Account</a> | </p -->
@@ -71,5 +74,5 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 </header><!-- #masthead -->
 
 <?php if(is_page('36')) { ?>
-<div id="slider"> <?php // echo do_shortcode('[layerslider id="1"]'); ?> </div> <?php }?> 
+<div id="slider"> <?php echo do_shortcode('[layerslider id="1"]'); ?> </div> <?php }?> 
 <div class="wrapper">
