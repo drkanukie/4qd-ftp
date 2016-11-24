@@ -97,7 +97,12 @@ h2.quicklink1,
 
 #socialicons {
   float: right;
+  min-width: 50%;
   margin: 0 0 8px 0;
+}
+
+#socialicons .social {
+  margin-left: 16px;
 }
 
 #footer .menu_title {

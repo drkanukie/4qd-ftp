@@ -15,13 +15,13 @@
 <div class="wrapper">
 <div class="menu_title">CONTACT</div>
 <div id="socialicons">
-  <a href="https://www.facebook.com/4QD-Ltd-505913622936010/">
+  <a href="https://www.facebook.com/4QD-Ltd-505913622936010/" target="_blank">
   <img class="social" src="<?php bloginfo('template_url');?>-child/img/facebook-logo.svg"  alt="4QD - Electronic speed controllers on Facebook" ></a>
-  <a href="https://twitter.com/Steve4QD">
+  <a href="https://twitter.com/Steve4QD" target="_blank">
   <img class="social" src="<?php bloginfo('template_url');?>-child/img/twitter-social-logotype.svg"  alt="4QD - Electronic speed controllers on Twitter" ></a>
-  <a href="https://www.linkedin.com/company/4qd-ltd">
+  <a href="https://www.linkedin.com/company/4qd-ltd" target="_blank">
   <img class="social" src="<?php bloginfo('template_url');?>-child/img/linkedin-logo.svg"  alt="4QD - Electronic speed controllers on LinkedIn" ></a>
-  <a href="https://plus.google.com/110249060742429347258/">
+  <a href="https://plus.google.com/110249060742429347258/" target="_blank">
   <img class="social" src="<?php bloginfo('template_url');?>-child/img/google-plus-social-logotype.svg"  alt="4QD - Electronic speed controllers on Google" ></a>
 </div>
 <div class="hrgrey"></div>
