@@ -91,6 +91,20 @@ h2.quicklink1,
   height: 1px;
 }
 
+.hrgrey {
+  height: 1px;
+}
+
+#socialicons {
+  float: right;
+  margin: 0 0 8px 0;
+}
+
+#footer .menu_title {
+  margin-top: 8px;
+  float: left;
+}
+
 #footercontact a {
   color: rgb(0, 180, 167);
 }
@@ -130,11 +144,6 @@ h2.quicklink1,
   .logo {
     width: 200px;
     /* float: left; */
-  }
-  #socialicons {
-    float: right;
-    margin: 20px 0 0 0;
-    width: 40%;
   }
   #contactdetails {
     float: right;
