@@ -28,7 +28,19 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 </script>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<!-- 
+  Inject WP content
+ -->
 <?php wp_head(); ?>
+<!-- 
+  end WP content
+ -->
+
+<!-- 
+  TODO force style update not cached version
+ -->
+ <link rel="stylesheet" id="fourqd-style-css" href="http://www.staging2.4qd.co.uk/wp-content/themes/fourqd-child/style.css" type="text/css" media="all">
+
 </head>
 <body <?php body_class(); ?>>
 <!-- Google analytics code inserted 23rd January 2015 -->
@@ -52,6 +64,8 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
   
   <!-- contact details -->
     <div id="contactdetails">
+      <?php include 'translate.php'; ?>
+
       <p><a href="tel:+441487450520"><img src="<?php bloginfo('template_url');?>-child/img/ic_phone_black_24px.svg" alt="phone">
       +44 (0) 1487 450520</a></p>
       <p><a href="mailto:<?php echo antispambot( 'esales@4qd.co.uk' );?>" />

@@ -11,8 +11,10 @@
 ?>
 </div>
 </div>
+
 <div id="footer">
 <div class="wrapper">
+
 <div class="menu_title">CONTACT</div>
 <div id="socialicons">
   <a href="https://www.facebook.com/4QD-Ltd-505913622936010/" target="_blank">
@@ -24,62 +26,57 @@
   <a href="https://plus.google.com/110249060742429347258/" target="_blank">
   <img class="social" src="<?php bloginfo('template_url');?>-child/img/google-plus-social-logotype.svg"  alt="4QD - Electronic speed controllers on Google" ></a>
 </div>
+
 <div class="hrgrey"></div>
 
 <div id="footercontact">
-<p><span class="greytext">Head Office:</span><br>4QD Ltd.<br>36 Greenfields<br>Earith, Cambridgeshire<br>PE28 3QH</p>
+  <h3>Head Office:</h3>
+  <p class="sub_title">4QD Ltd.<br>
+  36 Greenfields<br>
+  Earith, Cambridgeshire<br>
+  PE28 3QH</p>
 
-<p><span class="greytext">Industrial Unit:</span><br>Unit 11 Meadow Drove Industrial Estate<br>Earith, Cambridgeshire<br>PE28 3QF</p>
-
-<p> &copy 4QD Limited 2016 </p>
-
+  <h3>Industrial Unit:</h3>
+  <p class="sub_title">Unit 11 Meadow Drove Industrial Estate<br>
+  Earith, Cambridgeshire<br>
+  PE28 3QF</p>
 </div>
 
 <div id="footercontact">
-
-<p><span class="greytext">Sales enquiries:</span> <a href="mailto:<?php
-echo antispambot( 'esales@4qd.co.uk' );
-?>" /><?php
-echo antispambot( 'esales@4qd.co.uk' );
-?></a><br>
-<span class="greytext">Technical support:</span> <a href="mailto:<?php
-echo antispambot( 'esupport@4qd.co.uk' );
-?>" /><?php
-echo antispambot( 'esupport@4qd.co.uk' );
-?></a><br>
-<span class="greytext">Buyers</span> <a href="mailto:<?php
-echo antispambot( 'buyer@4qd.co.uk' );
-?>" /><?php
-echo antispambot( 'buyer@4qd.co.uk' );
-?></a><br>
-<span class="greytext">Webmaster:</span> <a href="mailto:<?php
-echo antispambot( 'webmaster@4qd.co.uk' );
-?>" /><?php
-echo antispambot( 'webmaster@4qd.co.uk' );
-?></a><br>
-<span class="greytext">International:</span> +44 1487 450 520<br>
-<span class="greytext">UK:</span> 01487 450520<br></p>
-
-<p><a href="http://www.4qd.co.uk/terms-and-conditions/">Terms and Conditions</a></p>
-<div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
-
+  <p><span class="sub_title">Sales enquiries:</span> <a href="mailto:<?php
+  echo antispambot( 'esales@4qd.co.uk' );
+  ?>" /><?php
+  echo antispambot( 'esales@4qd.co.uk' );
+  ?></a></p>
+  <p>
+  <span class="sub_title">Technical support:</span> <a href="mailto:<?php
+  echo antispambot( 'esupport@4qd.co.uk' );
+  ?>" /><?php
+  echo antispambot( 'esupport@4qd.co.uk' );
+  ?></a></p>
+  <p>
+  <span class="sub_title">Buyers:</span> <a href="mailto:<?php
+  echo antispambot( 'buyer@4qd.co.uk' );
+  ?>" /><?php
+  echo antispambot( 'buyer@4qd.co.uk' );
+  ?></a></p>
+  <p>
+  <span class="sub_title">Webmaster:</span> <a href="mailto:<?php
+  echo antispambot( 'webmaster@4qd.co.uk' );
+  ?>" /><?php
+  echo antispambot( 'webmaster@4qd.co.uk' );
+  ?></a></p>
+  <p><span class="sub_title">International:</span> <a href="tel:+441487450520">+44 1487 450 520</a></p>
+  <p><span class="sub_title">UK:</span> <a href="tel:01487450520">01487 450520</a></p>
+  <p><a href="http://www.4qd.co.uk/terms-and-conditions/">Terms and Conditions</a></p>
 </div>
 
 <div id="footerform">
-<?php echo apply_filters('the_content','[si-contact-form form="1"]');?>
-
-
+  <?php echo apply_filters('the_content','[si-contact-form form="1"]');?>
 </div>
 
-
-
 </div>
+<p class="copyright clearfix"> &copy 4QD Limited <?php echo date("Y"); ?> </p>
 </div>
 
 <?php wp_footer(); ?>

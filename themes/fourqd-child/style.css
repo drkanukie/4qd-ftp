@@ -5,7 +5,7 @@
  Author:         Erica Richardson
  Author URI:     
  Template:       fourqd
- Version:        1.0.0
+ Version:        1.1.0
 */
 
 @import url("../fourqd/style.css");
@@ -25,6 +25,27 @@ ol {
 
 ul li,
 ol li {
+  margin-bottom: 16px;
+}
+
+
+/* default tweaks */
+
+h1,
+h2 {
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.5;
+}
+
+
+/* ECOMMERCE IMPROVEMENTS
+*/
+
+.woocommerce-variation-price {
   margin-bottom: 16px;
 }
 
@@ -114,8 +135,12 @@ h2.quicklink1,
   color: rgb(0, 180, 167);
 }
 
-#footercontact .greytext {
-  color: rgba(255, 255, 255, .6);
+#footercontact p {
+  margin: 0 0 16px 0;
+}
+
+#footercontact .sub_title {
+  color: rgba(255, 255, 255, .9);
 }
 
 .logo {
@@ -128,6 +153,10 @@ h2.quicklink1,
   display: none;
 }
 
+#footer {
+  padding: 16px 0;
+}
+
 #footerform button,
 #footerform input[type="button"],
 #footerform input[type="reset"],
@@ -137,6 +166,20 @@ h2.quicklink1,
   box-shadow: none;
   border: none;
   text-transform: uppercase;
+}
+
+#footer h3 {
+  margin: 0 0 8px 0;
+  font-weight: 500;
+}
+
+#footer .copyright {
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 24px;
+  margin: 0 auto 0 auto 0;
 }
 
 
@@ -181,33 +224,36 @@ h2.quicklink1,
 
 /* mobile */
 
-@media screen and (max-width: 640px) {
-  .logo {
-    width: 125px;
-    /* float: left; */
-  }
-  .quicklink {
-    width: 98%;
-    margin: 20px 1%;
-    float: left;
-  }
+@media screen and (max-width: 960px) {
   #footercontact {
     float: left;
     width: 98%;
-    margin: 20px 1%;
-    float: left;
+    margin: 0 0 16px 0;
   }
   #footerform {
     float: left;
     width: 98%;
-    margin: 20px 1%;
-    float: left;
+    margin: 0 0 16px 0;
   }
   ul.products li.product {
     width: 98%!important;
     border-bottom: 1px solid #ccc;
     overflow: auto;
     min-height: 650px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /*
+  .logo {
+    width: 200px;
+     float: left;
+  }
+  */
+  .quicklink {
+    width: 98%;
+    margin: 0 0 16px 0;
+    float: left;
   }
   li.knowledge-category,
   li.cat-item {
@@ -240,5 +286,8 @@ h2.quicklink1,
   ul,
   ol {
     margin-left: 0;
+  }
+  #socialicons .social {
+    margin: 0 0 16px 16px;
   }
 }
