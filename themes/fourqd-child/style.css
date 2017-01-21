@@ -41,12 +41,129 @@ p {
   line-height: 1.5;
 }
 
+div.entry-content,
+div.entry-content p {
+  margin-top: 0;
+}
+
+
+/* make links react in content 
+*/
+
+
+/* body a {
+  color: rgb(0, 180, 167);
+}*/
+
+
+/* main content links hover and active
+*/
+
+#page p a:hover,
+#content p a:hover,
+#page p a:active,
+#content p a:active {
+  text-decoration: underline;
+}
+
+
+/* heatsinks page is mess 
+*/
+
+mark {
+  background: none;
+}
+
+.product p a {
+  text-decoration: none;
+  color: #404040;
+}
+
+#content .product p a:hover,
+#content .product p a:active {
+  text-decoration: none;
+}
+
+#content a.moretag {
+  color: white;
+}
+
+
+/* NEWS */
+
+#homecopy {
+  float: none;
+  width: 80%;
+  margin: auto;
+}
+
+
+/* heatsinks */
+
+
+/* fix rule under more info buttons */
+
+#content a.add_to_cart_button {
+  margin-bottom: 8px;
+}
+
+
+/* fix catalog */
+
+
+/* image borders experimental 
+
+.upsells img,
+.size-shop_single {
+  border: 1px solid rgb(50, 76, 74);
+}
+*/
+
 
 /* ECOMMERCE IMPROVEMENTS
 */
 
 .woocommerce-variation-price {
   margin-bottom: 16px;
+}
+
+.woocommerce ul.products li.product .price {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+/* Setting standard height for product display area on product category page, so that products
+line up better */
+
+.woocommerce ul.products li.product h3 {
+  margin: 0;
+  text-align: center;
+  min-height: 40px;
+}
+
+
+/* link fixes for product list / upsell 
+*/
+
+.product a h3,
+.product a p,
+.product a div,
+
+/* accessories page is mess uses div not p */
+
+.upsells a h3,
+.upsells a p {
+  color: #404040;
+}
+
+
+/* nav brand color 
+*/
+
+.main-navigation li:hover > a,
+.main-navigation li.focus > a {
+  background: #F47320;
 }
 
 
@@ -87,16 +204,6 @@ p {
 
 .posted_in {
   display: none;
-}
-
-
-/* Setting standard height for product display area on product category page, so that products
-line up better */
-
-.woocommerce ul.products li.product h3 {
-  margin: 0;
-  text-align: center;
-  min-height: 40px;
 }
 
 h2.quicklink1,
@@ -204,6 +311,9 @@ h2.quicklink1,
     float: left;
   }
   .quicklink img {
+    width: 100%;
+  }
+  #homecopy {
     width: 100%;
   }
 }
