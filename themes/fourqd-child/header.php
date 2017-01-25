@@ -36,11 +36,6 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
   end WP content
  -->
 
-<!-- 
-  TODO force style update not cached version
- -->
- <link rel="stylesheet" id="fourqd-style-css" href="http://www.staging2.4qd.co.uk/wp-content/themes/fourqd-child/style.css" type="text/css" media="all">
-
 </head>
 <body <?php body_class(); ?>>
 <!-- Google analytics code inserted 23rd January 2015 -->
